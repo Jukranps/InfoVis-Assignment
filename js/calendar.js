@@ -222,7 +222,7 @@
   }
   
   const createHeatMap = (data, colors, yearMode) => {
-    const cellSize = 15;
+    const cellSize = 22;
     const margin = {top: 10, right: 20, bottom: 30, left: 40};
     const width = (cellSize * 53) + margin.left + margin.right; 
     const height = (cellSize * 7) + margin.top + margin.bottom;
@@ -325,9 +325,9 @@
       .data(days)
       .join("text")
         .attr("x", -5)
-        .attr("y", (d, i) => i * cellSize + 10)
+        .attr("y", (d, i) => i * cellSize + 12)
         .style("text-anchor", "end")
-        .style("font-size", "10px")
+        .style("font-size", "12px")
         .style("fill", "#555")
         .text(d => d);
   
@@ -338,9 +338,9 @@
       .join("text")
         .attr("class", "weekLabel")
         .attr("x", d => d * cellSize + cellSize / 2)
-        .attr("y", -3)
+        .attr("y", -5)
         .style("text-anchor", "middle")
-        .style("font-size", "9px")
+        .style("font-size", "11px")
         .style("fill", "#555")
         .text(d => (d % 2 === 0) ? d + 1 : "");
     
