@@ -17,8 +17,9 @@ h1 {
 
 #provider-filter{
   background:white; 
-  padding:10px; 
-  border-radius:8px;
+  padding:12px 18px; 
+  border-radius:10px;
+  font-size:16px;
 }
 
 #map {
@@ -111,6 +112,7 @@ html, body {
 .filters label {
   margin: 0;
   white-space: nowrap;
+  font-size:16px;
 }
 
 .filters select { width: auto; }
@@ -187,10 +189,10 @@ html, body {
 
 .details-page #back-to-map {
   border-radius: 32px;
-  font-size: large;
+  font-size: 18px;
   position: fixed;
   top: 0.25rem;
-  left: 0.25rem;
+  left: 1rem;
   z-index: 1000;
 }
 
