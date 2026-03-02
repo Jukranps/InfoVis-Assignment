@@ -161,7 +161,7 @@ html, body {
 }
 
 .details-page .dashboard-container {
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -230,4 +230,14 @@ html, body {
   font-size: 14px;
   font-style: italic;
   margin-top: 10px;
+}
+
+.details-page #calendar svg {
+  width: 100%;
+  height: auto;
+}
+
+.details-page #sankey svg {
+  width: 100%;
+  height: auto;
 }
